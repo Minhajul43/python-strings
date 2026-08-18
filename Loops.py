@@ -40,3 +40,12 @@ for i in range(5):
     print("Loop with else iteration:", i)
 else:
     print("Loop with else completed.")
+
+    # do while loop simulation
+count = 0
+while True:
+    print("Do while loop simulation iteration:", count)
+    count += 1
+    if count >= 5:
+        break
+    
